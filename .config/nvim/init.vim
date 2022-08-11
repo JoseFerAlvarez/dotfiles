@@ -8,6 +8,9 @@ if exists('g:vscode')
     source $HOME/.config/nvim/plug-config/easymotion.vim
 else
     " Plugins
+    source $HOME/.config/nvim/plug-config/coc.vim
+    source $HOME/.config/nvim/plug-config/nerdtree.vim
+    source $HOME/.config/nvim/plug-config/explorer.vim
     source $HOME/.config/nvim/plug-config/indentLine.vim
     source $HOME/.config/nvim/plug-config/vim-closetag.vim
     source $HOME/.config/nvim/plug-config/signify.vim
@@ -16,7 +19,8 @@ else
     source $HOME/.config/nvim/plug-config/fzf.vim
     source $HOME/.config/nvim/plug-config/prettier.vim
     " luafile $HOME/.config/nvim/plug-config/nvim-treeseter.lua
-    " Themes  
-    source $HOME/.config/nvim/themes/material.vim
-    " source $HOME/.config/nvim/themes/onedark.vim
+    " Themes
+    source $HOME/.config/nvim/general/colors.vim
+    source $HOME/.config/nvim/themes/airline.vim
+    source $HOME/.config/nvim/themes/monokai-pro.vim
 endif

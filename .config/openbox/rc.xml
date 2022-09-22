@@ -507,6 +507,16 @@
 	<command>tor-browser</command>
       </action>
     </keybind>
+    <keybind key="W-A-s">
+      <action name="Execute">
+	<command>slack</command>
+      </action>
+    </keybind>
+    <keybind key="W-A-d">
+      <action name="Execute">
+	<command>discord</command>
+      </action>
+    </keybind>
     <!-- Rofi -->
     <keybind key="A-F1">
       <action name="Execute">

@@ -12,6 +12,10 @@ nitrogen --restore
 ## Enable Redshift
 redshift &
 
+##Init slack & discord
+##slack &
+##discord &
+
 ## xfce4-settings daemon
 xfsettingsd &
 

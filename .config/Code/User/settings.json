@@ -1,0 +1,83 @@
+{
+    /*MiniMap*/
+    "editor.minimap.scale": 1,
+    "editor.minimap.renderCharacters": true,
+    "editor.minimap.maxColumn": 120,
+    "editor.minimap.showSlider": "mouseover",
+    "editor.minimap.side": "right",
+    /*WorkBench*/
+    "workbench.colorTheme": "Community Material Theme Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    /*Bracket Pairs*/
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+        "[Flatland Monokai]": {
+            "editorBracketHighlight.foreground1": "#ffffff",
+            "editorBracketHighlight.foreground2": "#96f56a",
+            "editorBracketHighlight.foreground3": "#50cbfc",
+            "editorBracketHighlight.foreground4": "#f2fd56",
+            "editorBracketHighlight.foreground5": "#ffa939",
+            "editorBracketHighlight.foreground6": "#ff3434"
+        }
+    },
+    "workbench.tree.indent": 18,
+    /*VSCode editor*/
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    /*BreadCrums*/
+    "breadcrumbs.enabled": true,
+    /*Linters*/
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "html.autoClosingTags": true,
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "javascript.validate.enable": false,
+    "stylelint.enable": true,
+    "eslint.enable": true,
+    "eslint.validate": [
+        "javascript"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": null
+    },
+    "[markdown]": {
+        "editor.minimap.enabled": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": false,
+            "source.fixAll.stylelint": false
+        },
+        "editor.defaultFormatter": null,
+        "editor.formatOnSave": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "typescript.format.enable": false,
+    "typescript.validate.enable": false,
+    "[njk]": {
+        "editor.formatOnSave": false
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.untitled.hint": "hidden",
+    "markdown.styles": [
+        "markdown.css"
+    ],
+    /*Python linter*/
+    "editor.inlineSuggest.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    /*React*/
+    "editor.snippetSuggestions": "top"
+}
